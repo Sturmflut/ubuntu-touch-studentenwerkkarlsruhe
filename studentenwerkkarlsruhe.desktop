@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Studentenwerk Karlsruhe
+Comment=Webapp for Studentenwerk Karlsruhe services
+Type=Application
+Icon=studentenwerkkarlsruhe.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://www.studentenwerk-karlsruhe.de/(en|de|fr|es|cn|ru)/mobile/* http://www.studentenwerk-karlsruhe.de/en/mobile// %u
+Terminal=false
+X-Ubuntu-Touch=true
+
