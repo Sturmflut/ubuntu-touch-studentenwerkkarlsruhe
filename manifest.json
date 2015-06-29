@@ -1,9 +1,9 @@
 {
     "architecture": "all",
     "description": "Webapp for Studentenwerk Karlsruhe services",
-    "framework": "ubuntu-sdk-14.10",
+    "framework": "ubuntu-sdk-15.04",
     "hooks": {
-        "kitmensawebapp": {
+        "studentenwerkkarlsruhe": {
             "apparmor": "studentenwerkkarlsruhe.apparmor",
             "desktop": "studentenwerkkarlsruhe.desktop"
         }
@@ -11,5 +11,5 @@
     "maintainer": "Sturm Flut <sturmflut@lieberbiber.de>",
     "name": "studentenwerkkarlsruhe.sturmflut",
     "title": "Studentenwerk Karlsruhe",
-    "version": "0.1.0"
+    "version": "0.1.1"
 }
